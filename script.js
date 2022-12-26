@@ -5,15 +5,15 @@ if (opcion) {
     cantvelas = 0;
     total = 0;
     console.clear();
-    console.log("El carrito quedó vacio! Ya podés volves a empezar :) \n\n");
+    console.log("\n\n El carrito quedó vacio! Ya podés volves a empezar :) \n\n");
 } else {
-    console.log("El carrito no se reinició, podes seguir con tu compra :) \n\n");
+    console.log("\n\n El carrito no se reinició, podes seguir con tu compra :) \n\n");
 }
 }
 
 function mostrar() {
 console.log(
-    " Tu carrito lleva en total " +
+    "\n\n Tu carrito lleva en total " +
     cantvelas +
     " velas. \n Tenes " +
     limon +
@@ -59,24 +59,24 @@ switch (menu) {
             total = total + 700;
             cantvelas++;
             vainilla++;
-            console.log("Añadiste una vela de Vainilla al carrito :) \n");
+            console.log("\n Añadiste una vela de Vainilla al carrito :) \n");
             break;
         case 2:
             total = total + 850;
             cantvelas++;
             limon++;
-            console.log("Añadiste una vela de Limon al carrito :) \n");
+            console.log("\n Añadiste una vela de Limon al carrito :) \n");
             break;
         case 3:
             total = total + 900;
             cantvelas++;
             cookies++;
-            console.log("Añadiste una vela de Cookies al carrito :) \n");
+            console.log("\n Añadiste una vela de Cookies al carrito :) \n");
             break;
         case 0:
             break;
         default:
-            console.log("Por favor, ingresá un numero válido \n");
+            console.log("\n Por favor, ingresá un numero válido \n");
             break;
         }
     } while (menu2 != 0);
@@ -91,7 +91,7 @@ switch (menu) {
     case 0:
     break;
     default:
-        console.log("Por favor, ingresá un numero válido \n");
+        console.log("\n Por favor, ingresá un numero válido \n");
     break;
   }
 } while (menu != 0);
