@@ -5,9 +5,9 @@ if (opcion) {
     cantvelas = 0;
     total = 0;
     console.clear();
-    console.log("El carrito quedó vacio! Ya podés volves a empezar :)");
+    console.log("El carrito quedó vacio! Ya podés volves a empezar :) \n\n");
 } else {
-    console.log("El carrito no se reinició, podes seguir con tu compra :)");
+    console.log("El carrito no se reinició, podes seguir con tu compra :) \n\n");
 }
 }
 
@@ -22,19 +22,19 @@ console.log(
     " de vainilla, y " +
     cookies +
     " de cookies.\n El total gastado hasta el momento es de $" +
-    total);
+    total + "\n\n");
 }
 
 let menu,
-  menu2,
-  total = 0,
-  cantvelas = 0,
-  limon = 0,
-  cookies = 0,
-  vainilla = 0;
+menu2,
+total = 0,
+cantvelas = 0,
+limon = 0,
+cookies = 0,
+vainilla = 0;
 
 do {
-  menu = Number(prompt(
+menu = Number(prompt(
     "- Ingrese el numero, segun lo que desea hacer: \n \n \
         1) Comprar. \n \
         2) Mostrar carrito. \n \
@@ -59,24 +59,24 @@ switch (menu) {
             total = total + 700;
             cantvelas++;
             vainilla++;
-            console.log("Añadiste una vela de Vainilla al carrito :)");
+            console.log("Añadiste una vela de Vainilla al carrito :) \n");
             break;
         case 2:
             total = total + 850;
             cantvelas++;
             limon++;
-            console.log("Añadiste una vela de Limon al carrito :)");
+            console.log("Añadiste una vela de Limon al carrito :) \n");
             break;
         case 3:
             total = total + 900;
             cantvelas++;
             cookies++;
-            console.log("Añadiste una vela de Cookies al carrito :)");
+            console.log("Añadiste una vela de Cookies al carrito :) \n");
             break;
         case 0:
             break;
         default:
-            console.log("Por favor, ingresá un numero válido");
+            console.log("Por favor, ingresá un numero válido \n");
             break;
         }
     } while (menu2 != 0);
@@ -91,13 +91,13 @@ switch (menu) {
     case 0:
     break;
     default:
-        console.log("Por favor, ingresá un numero válido");
+        console.log("Por favor, ingresá un numero válido \n");
     break;
   }
 } while (menu != 0);
 
 console.log(
-    " Gracias por tu compra! \n Tu carrito quedó con un total " +
+    "\n\n\n Gracias por tu compra! \n Tu carrito quedó con un total " +
     cantvelas +
     " velas. \n Vas a llevar " +
     limon +
