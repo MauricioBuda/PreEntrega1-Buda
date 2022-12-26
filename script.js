@@ -107,4 +107,4 @@ console.log(
     cookies +
     " de cookies.\n El total gastado es de $" +
     total + 
-    ".\n Cuando nuestro programador sepa mas, vas a ser redirigido a ingresar los dato de tu tarjeta");
+    ".\n Cuando nuestro programador sepa mas, vas a ser redirigido a ingresar los datos de tu tarjeta");
